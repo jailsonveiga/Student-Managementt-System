@@ -25,4 +25,25 @@ public class Student {
         this.feesPaid = 0;
         this.feesTotal = 30000;
     }
+
+    /* Not going to alter student's name, student's id */
+
+    /**
+     * Used to update the student's grade
+     * @param grade new grade of the student
+     */
+    public void setGrade(int grade) {
+        this.grade = grade;
+    }
+
+    /**
+     * Keep adding the fees to feesPaid Field (feesPaid = feesPaid + fees)
+     * Add the fees to the fees paid
+     * The school is going to receive the funds
+     * @param fees the fees that the student pays
+     */
+
+    public void updateFeesPaid(int fees) {
+        feesPaid += fees;
+    }
 }
