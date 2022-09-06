@@ -43,5 +43,8 @@ public class Main {
 
         System.out.println(rakshith);
 
+        mellisa.receiveSalary(mellisa.getSalary());
+        System.out.println(mellisa);
+
     }
 }
