@@ -43,7 +43,7 @@ public class Student {
      * @param fees the fees that the student pays
      */
 
-    public void updateFeesPaid(int fees) {
+    public void payFees(int fees) {
         feesPaid += fees;
     }
 
