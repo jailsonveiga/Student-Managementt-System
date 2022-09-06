@@ -21,5 +21,10 @@ public class Main {
         Student rakshith = new Student(2, "Rakshith", 12);
         Student rabbi = new Student(3, "Rabbi", 5);
 
+        List<Student> studentList = new ArrayList<>();
+        studentList.add(tamasha);
+        studentList.add(rakshith);
+        studentList.add(rabbi);
+
     }
 }
