@@ -81,4 +81,12 @@ public class Student {
     public int getFeesTotal() {
         return feesTotal;
     }
+
+    /**
+     *
+     * @return the remaining fees
+     */
+    public int getRemainingFees() {
+        return feesTotal - feesPaid;
+    }
 }
