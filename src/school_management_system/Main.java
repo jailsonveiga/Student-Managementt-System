@@ -1,5 +1,8 @@
 package school_management_system;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -8,9 +11,15 @@ public class Main {
         Teacher mellisa = new Teacher(2, "Mellisa", 700);
         Teacher vanderhorn = new Teacher(3, "Vanderhorn", 600);
 
+        List<Teacher> teacherList = new ArrayList<>();
+        teacherList.add(lizzy);
+        teacherList.add(mellisa);
+        teacherList.add(vanderhorn);
+
         // Create new Object instance of Students
         Student tamasha = new Student(1, "Tamasha", 4);
         Student rakshith = new Student(2, "Rakshith", 12);
         Student rabbi = new Student(3, "Rabbi", 5);
+
     }
 }
