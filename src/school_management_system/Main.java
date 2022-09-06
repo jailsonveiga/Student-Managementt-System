@@ -26,5 +26,8 @@ public class Main {
         studentList.add(rakshith);
         studentList.add(rabbi);
 
+        // Create new Object instance of Schools with teacherList and studentList array
+        School ghs = new School(teacherList, studentList);
+
     }
 }
