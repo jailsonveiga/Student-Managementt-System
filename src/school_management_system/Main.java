@@ -29,5 +29,17 @@ public class Main {
         // Create new Object instance of Schools with teacherList and studentList array
         School ghs = new School(teacherList, studentList);
 
+        tamasha.payFees(5000);
+        rakshith.payFees(6000);
+
+        System.out.println("GHS has earned $" + ghs.getTotalMoneyEarned() + " dollars");
+
+        System.out.println("---------- MAKING SCHOOL PAY SALARY ----------");
+        lizzy.receiveSalary(lizzy.getSalary());
+        System.out.println("GHS has spent for salary to " + lizzy.getName() + " and now has $" + ghs.getTotalMoneyEarned() + " dollars");
+
+        vanderhorn.receiveSalary(vanderhorn.getSalary());
+        System.out.println("GHS has spent for salary to " + vanderhorn.getName() + " and now has $" + ghs.getTotalMoneyEarned() + " dollars");
+
     }
 }
