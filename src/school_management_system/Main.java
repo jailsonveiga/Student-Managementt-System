@@ -29,6 +29,9 @@ public class Main {
         // Create new Object instance of Schools with teacherList and studentList array
         School ghs = new School(teacherList, studentList);
 
+        Teacher megan = new Teacher(6, "Megan", 900);
+        ghs.addTeacher(megan);
+
         tamasha.payFees(5000);
         rakshith.payFees(6000);
 
